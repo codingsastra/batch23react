@@ -7,6 +7,8 @@ import Counter from './Counter'
 import Like from './Like'
 import Friends from './Friends';
 import Greeting from './Greeting'
+import Todos from './Todos'
+import Users from './Users'
 
 class  App extends React.Component {
   render(){
@@ -16,7 +18,7 @@ class  App extends React.Component {
         <header className="App-header">
           <Welcome name="Ram" password="123456" year={2020}/>
         </header>
-        <Greeting/>
+        <Users/>
       </div>
     );
   }
